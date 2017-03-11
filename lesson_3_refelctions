@@ -16,3 +16,6 @@ and pushing commits to the remote could affect the original repository.Clone can
 Fork is a lot like clone, but its advantage over clone is to make a copy of a repository on GitHub and the copy is not linked to the 
 original resitory. When you make changes on your computer, you clone your version on your github and set your version as a remote.Fork works
 only within the context of github.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit is to keep pace with the updates in github without merging the updates with the local branch immediately.
