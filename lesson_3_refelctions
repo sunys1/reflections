@@ -5,3 +5,14 @@ Why might you want to always pull changes manually rather than having Git automa
 
 I pull changes manually because sometimes I only need to pull updates from certain branch to local repository rather than automatically 
 pulling all the updates from he remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A branch is always created on a single repository. 
+Unlike creating a branch, cloning allows you to take an existing repository
+from GitHub to your own computer and set the original repository as a remote. In this case, making changes to the cloned repository 
+and pushing commits to the remote could affect the original repository.Clone can also be used on local repository. 
+
+Fork is a lot like clone, but its advantage over clone is to make a copy of a repository on GitHub and the copy is not linked to the 
+original resitory. When you make changes on your computer, you clone your version on your github and set your version as a remote.Fork works
+only within the context of github.
