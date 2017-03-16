@@ -19,3 +19,9 @@ only within the context of github.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit is to keep pace with the updates in github without merging the updates with the local branch immediately.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When collaborating with others, pull requests allows people to work on adding different features together and getting partners feedback,
+and it allows people to have flexibility on whether or not adding other people change to his own local, rather than simply pulling and 
+merge everything.
